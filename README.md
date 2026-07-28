@@ -106,9 +106,9 @@ assets/images/projects.png
 
 **Tu Nombre**
 
-* GitHub: https://github.com/TU-USUARIO
-* LinkedIn: https://linkedin.com/in/TU-USUARIO
-* Correo: [tucorreo@ejemplo.com](mailto:tucorreo@ejemplo.com)
+* GitHub: https://github.com/fpacheco-2024237
+* LinkedIn: https://linkedin.com/in/fred-garcia-132512275
+* Correo: [micorreo@ejemplo.com](mailto:micorreo@ejemplo.com)
 
 ---
 
