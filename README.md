@@ -7,9 +7,7 @@ Este repositorio contiene el código fuente de mi portafolio web, desarrollado c
 
 Puedes visitar el portafolio en el siguiente enlace:
 
-🔗 **https://TU-USUARIO.github.io/TU-REPOSITORIO/**
-
-> Reemplaza `TU-USUARIO` y `TU-REPOSITORIO` por los datos correspondientes de tu repositorio en GitHub.
+🔗 **https://fpacheco-2024237.github.io/TU-REPOSITORIO/**
 
 ---
 
@@ -104,7 +102,7 @@ assets/images/projects.png
 
 ## 👨‍💻 Autor
 
-**Tu Nombre**
+**Fred Pacheco**
 
 * GitHub: https://github.com/fpacheco-2024237
 * LinkedIn: https://linkedin.com/in/fred-garcia-132512275
