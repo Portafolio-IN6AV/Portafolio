@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title data-bind="meta.title">Portafolio</title>
+<meta name="description" data-bind-attr="content:meta.description">
+<link rel="icon" href="assets/imgicon.png" type="image/png">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="grain" aria-hidden="true"></div>
+
+<!-- ===== STATUS BAR (elemento firma: barra de estado tipo terminal) ===== -->
+<div class="statusbar">
+  <div class="statusbar__inner">
+    <span class="statusbar__item statusbar__dot" id="availabilityDot">
+      <i class="dot"></i> <span data-bind="hero.status">Disponible</span>
+    </span>
+    <span class="statusbar__item statusbar__loc" data-bind="contact.location">—</span>
+  </div>
+</div>
+
+<!-- ===== NAV ===== -->
+<header class="site-header">
+  <nav class="nav container">
+    <a href="#top" class="nav__brand">
+      <span class="nav__mark">◧</span>
+      <span data-bind="brand.name">Fred Pacheco</span>
+    </a>
+    <button class="nav__toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav__links" id="navLinks">
+      <li><a href="#sobre-mi">Perfil</a></li>
+      <li><a href="#stack">Stack</a></li>
+      <li><a href="#trayectoria">Trayectoria</a></li>
+      <li><a href="#proyectos">Proyectos</a></li>
+      <li><a href="#contacto" class="nav__cta">Contacto</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- ===== HERO ===== -->
+  <section class="hero container" id="hero">
+    <div class="hero__grid">
+      <div class="hero__text">
+        <p class="eyebrow">// <span data-bind="hero.eyebrow">ficha de perfil</span></p>
+        <h1 class="hero__name" data-bind="hero.name">Fred Pacheco</h1>
+        <p class="hero__role" data-bind="hero.role">Programador junior</p>
+        <p class="hero__tagline" data-bind="hero.tagline">Diseñador y desarrollador web con pasión por crear experiencias digitales excepcionales.</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" id="heroCtaPrimary" href="#" >
+            <span data-bind="hero.ctaPrimary.text">Ver proyectos</span>
+          </a>
+        </div>
+        <ul class="hero__socials" id="heroSocials"></ul>
+      </div>
+      <div class="hero__frame">
+        <div class="frame">
+          <img id="heroPhoto" src="assets/profile1.jpeg" alt="Foto de perfil">
+          <div class="frame__tag">
+            <span data-bind="hero.coords">— / —</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SOBRE MÍ ===== -->
+  <section class="section" id="sobre-mi">
+    <div class="container section__grid">
+      <div class="section__label">
+        <p class="eyebrow">// perfil</p>
+        <h2>Sobre mí</h2>
+      </div>
+      <div class="section__content">
+        <div class="about__text" id="aboutText"></div>
+        <dl class="stats" id="aboutStats"></dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== STACK / HABILIDADES ===== -->
+  <section class="section section--alt" id="stack">
+    <div class="container section__grid">
+      <div class="section__label">
+        <p class="eyebrow">// stack</p>
+        <h2>Herramientas &amp; habilidades</h2>
+      </div>
+      <div class="section__content">
+        <div class="skills" id="skillsWrap"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TRAYECTORIA ===== -->
+  <section class="section" id="trayectoria">
+    <div class="container section__grid">
+      <div class="section__label">
+        <p class="eyebrow">// trayectoria</p>
+        <h2>Experiencia</h2>
+      </div>
+      <div class="section__content">
+        <ol class="timeline" id="experienceList"></ol>
+
+        <div class="education" id="educationWrap">
+          <h3 class="education__title">Formación</h3>
+          <ul class="education__list" id="educationList"></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROYECTOS ===== -->
+  <section class="section section--alt" id="proyectos">
+    <div class="container section__grid">
+      <div class="section__label">
+        <p class="eyebrow">// proyectos</p>
+        <h2>Trabajo seleccionado</h2>
+      </div>
+      <div class="section__content">
+        <div class="projects" id="projectsWrap"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACTO ===== -->
+  <section class="section" id="contacto">
+    <div class="container section__grid">
+      <div class="section__label">
+        <p class="eyebrow">// contacto</p>
+        <h2>Hablemos</h2>
+      </div>
+      <div class="section__content">
+        <p class="contact__intro" id="contactIntro"></p>
+
+        <div class="contact__panel">
+          <ul class="contact__list" id="contactList"></ul>
+
+          <form class="contact__form" id="contactForm">
+            <div class="field">
+              <label for="cf-name">Nombre</label>
+              <input type="text" id="cf-name" name="name" required>
+            </div>
+            <div class="field">
+              <label for="cf-email">Correo</label>
+              <input type="email" id="cf-email" name="email" required>
+            </div>
+            <div class="field">
+              <label for="cf-msg">Mensaje</label>
+              <textarea id="cf-msg" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary">Enviar mensaje</button>
+            <p class="field__hint">Si deseas contactar, por favor completa el formulario.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container site-footer__inner">
+    <p id="footerText">© 2026 — Portafolio</p>
+    <ul class="site-footer__socials" id="footerSocials"></ul>
+  </div>
+</footer>
+
+<script src="js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
