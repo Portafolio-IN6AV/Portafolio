@@ -7,7 +7,7 @@ Este repositorio contiene el código fuente de mi portafolio web, desarrollado c
 
 Puedes visitar el portafolio en el siguiente enlace:
 
-🔗 **https://fpacheco-2024237.github.io/TU-REPOSITORIO/**
+🔗 **https://fpacheco-2024237.github.io/Portafolio/**
 
 ---
 
