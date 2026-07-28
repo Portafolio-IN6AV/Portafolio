@@ -66,13 +66,13 @@ portafolio - 2026/
 1. Clona este repositorio:
 
 ```bash
-git clone https://github.com/TU-USUARIO/TU-REPOSITORIO.git
+git clone https://github.com/portafolio-in6av/Portafolio.git
 ````
 
 2. Accede al directorio:
 
 ```bash
-cd TU-REPOSITORIO
+cd Portafolio
 ```
 
 3. Abre el archivo `index.html` en tu navegador.
