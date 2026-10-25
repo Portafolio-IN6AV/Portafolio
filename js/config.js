@@ -143,19 +143,11 @@ window.PORTFOLIO_DATA = {
       links: { demo: "https://gumlet.tv/watch/6add6ecee655cfbd81267b1f/", code: "https://github.com/fpacheco-2024237/Banking-GT.git" }
     },
     {
-<<<<<<< HEAD
       title: "Gastreat GT",
       year: "2026",
       description: "Proyecto que desarrollé en el marco de la formación académica se hizo de forma individual para aplicar los conocimientos adquiridos.",
       tags: ["React", "Node.js", "MongoDB", "Express.js", "JWT", "MERN Stack", "REST API", "Docker"],
       links: { demo: "https://gumlet.tv/watch/6add6eced8b4449c83d18fa7/", code: "https://github.com/fpacheco-2024237/Gastreat-GT.git" }
-=======
-      title: "Life Friend",
-      year: "2025",
-      description: "Proyecto que desarrollé en el marco de la formación académica se hizo de forma individual para aplicar los conocimientos adquiridos.",
-      tags: ["JavaFX, Java, JavaEE", "MySQL"],
-      links: { demo: "https://gumlet.tv/watch/6add6eceeebf69da71ed2727/", code: "https://github.com/Portafolio-IN6AV/Veterinaria.git" }
->>>>>>> 7f18e46 (feat: actualizacion de orden en los bloques)
     },
   ],
 
