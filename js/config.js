@@ -48,8 +48,8 @@ window.PORTFOLIO_DATA = {
   /* ---------- SOBRE MÍ ---------- */
   about: {
     paragraphs: [
-      "Soy estudiante de Informática con tres años de formación académica y una fuerte orientación hacia el desarrollo Full Stack. Durante este tiempo he adquirido experiencia construyendo aplicaciones web, APIs REST y bases de datos utilizando tecnologías modernas.",
-      "Me gusta aprender constantemente, enfrentar nuevos retos y aplicar buenas prácticas de programación. Actualmente me encuentro próximo a realizar mis prácticas profesionales con el objetivo de seguir creciendo como desarrollador y aportar soluciones de calidad."
+      "Soy Graduado en Informática con tres años de formación académica y una fuerte orientación hacia el desarrollo Full Stack. Durante este tiempo he adquirido experiencia construyendo aplicaciones web, APIs REST y bases de datos utilizando tecnologías modernas.",
+      "Me gusta aprender constantemente, enfrentar nuevos retos y aplicar buenas prácticas de programación con el objetivo de seguir creciendo como desarrollador y aportar soluciones de calidad."
     ],
     stats: [
       { value: "3", label: "Años de formación" },
@@ -87,11 +87,11 @@ window.PORTFOLIO_DATA = {
      Ordena del más reciente al más antiguo. */
   experience: [
     {
-      role: "Programador Junior",
+      role: "Desarrollador Full Stack",
       company: "Proyectos Académicos",
-      period: "2024 — Pasado",
-      description: "Estuve desarrollando con Notepad++, cmd y en NetBeans aplicaciones y programas locales.",
-      tags: ["CSS", "HTML", "Java", "SQL"]
+      period: "2026 — Presente",
+      description: "Desarrollo de aplicaciones web utilizando Stack MERN y .NET, aplicando creación de APIs REST, autenticación con JWT, integración de bases de datos MySQL y MongoDB y desarrollo de lógica de negocio. ",
+      tags: ["Node.js", ".NET", "JWT", "React", "MongoDB", "Postgres", "Git", "Docker"]
     },
     {
       role: "Programador Junior",
@@ -101,11 +101,11 @@ window.PORTFOLIO_DATA = {
       tags: ["JavaScript", "CSS", "Java EE", "MySQL", "HTML", "Java"]
     },
     {
-      role: "Desarrollador Full Stack",
+      role: "Programador Junior",
       company: "Proyectos Académicos",
-      period: "2026 — Presente",
-      description: "Desarrollo de aplicaciones web utilizando Stack MERN y .NET, aplicando creación de APIs REST, autenticación con JWT, integración de bases de datos MySQL y MongoDB y desarrollo de lógica de negocio. ",
-      tags: ["Node.js", ".NET", "JWT", "React", "MongoDB", "Postgres", "Git", "Docker"]
+      period: "2024 — Pasado",
+      description: "Estuve desarrollando con Notepad++, cmd y en NetBeans aplicaciones y programas locales.",
+      tags: ["CSS", "HTML", "Java", "SQL"]
     }
   ],
 
@@ -122,11 +122,18 @@ window.PORTFOLIO_DATA = {
      Agrega tantos proyectos como quieras, cada uno es una tarjeta. */
   projects: [
     {
-      title: "Life Friend",
-      year: "2025",
-      description: "Proyecto que desarrollé en el marco de la formación académica se hizo de forma individual para aplicar los conocimientos adquiridos.",
-      tags: ["JavaFX, Java, JavaEE", "MySQL"],
-      links: { demo: "https://gumlet.tv/watch/6add6eceeebf69da71ed2727/", code: "https://github.com/Portafolio-IN6AV/Veterinaria.git" }
+      title: "Gekoni",
+      year: "2026",
+      description: "Proyecto que se desarrolló en el marco de la formación académica de forma individual.",
+      tags: ["React", "Node.js", "MongoDB", "Express.js", "JWT", "MERN Stack", "REST API", "Docker"],
+      links: { demo: "https://gumlet.tv/watch/6add6eced8b4449c83d18fa8/", code: "https://github.com/fpacheco-2024237/GEKONI.git" }
+    },
+    {
+      title: "Gastreat GT",
+      year: "2026",
+      description: "Este juego lo desarrollé en el marco de la formación académica de forma individual se presenta como un desafío.",
+      tags: ["React", "Node.js", "MongoDB", "Express.js", "JWT", "MERN Stack", "REST API", "Docker"],
+      links: { demo: "https://gumlet.tv/watch/6add6eced8b4449c83d18fa7/", code: "https://github.com/fpacheco-2024237/Gastreat-GT.git" }
     },
     {
       title: "Banking GT",
@@ -136,24 +143,25 @@ window.PORTFOLIO_DATA = {
       links: { demo: "https://gumlet.tv/watch/6add6ecee655cfbd81267b1f/", code: "https://github.com/fpacheco-2024237/Banking-GT.git" }
     },
     {
+<<<<<<< HEAD
       title: "Gastreat GT",
       year: "2026",
       description: "Proyecto que desarrollé en el marco de la formación académica se hizo de forma individual para aplicar los conocimientos adquiridos.",
       tags: ["React", "Node.js", "MongoDB", "Express.js", "JWT", "MERN Stack", "REST API", "Docker"],
       links: { demo: "https://gumlet.tv/watch/6add6eced8b4449c83d18fa7/", code: "https://github.com/fpacheco-2024237/Gastreat-GT.git" }
+=======
+      title: "Life Friend",
+      year: "2025",
+      description: "Proyecto que desarrollé en el marco de la formación académica se hizo de forma individual para aplicar los conocimientos adquiridos.",
+      tags: ["JavaFX, Java, JavaEE", "MySQL"],
+      links: { demo: "https://gumlet.tv/watch/6add6eceeebf69da71ed2727/", code: "https://github.com/Portafolio-IN6AV/Veterinaria.git" }
+>>>>>>> 7f18e46 (feat: actualizacion de orden en los bloques)
     },
-    {
-      title: "Gekoni",
-      year: "2026",
-      description: "Proyecto que se desarrolló en el marco de la formación académica de forma individual.",
-      tags: ["React", "Node.js", "MongoDB", "Express.js", "JWT", "MERN Stack", "REST API", "Docker"],
-      links: { demo: "https://gumlet.tv/watch/6add6eced8b4449c83d18fa8/", code: "https://github.com/fpacheco-2024237/GEKONI.git" }
-    }
   ],
 
   /* ---------- CONTACTO ---------- */
   contact: {
-    intro: "Actualmente estoy próximo a graduarme y me encuentro abierto a oportunidades para seguir creciendo como desarrollador Full Stack.",
+    intro: "Graduado en Informática y estoy abierto a oportunidades para seguir creciendo como programador junior y de IT.",
     email: "alexandref042007@gmail.com",
     phone: "+502 2024-2373",
     location: "Ciudad de Guatemala, Guatemala",
