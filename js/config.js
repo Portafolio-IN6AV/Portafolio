@@ -132,14 +132,14 @@ window.PORTFOLIO_DATA = {
       title: "Banking GT",
       year: "2026",
       description: "Proyecto que se desarrolló en el marco de la formación académica de forma grupal con el metodo SCRUM.",
-      tags: ["JavaFX, Java, JavaEE", "MySQL"],
+      tags: ["React", "Node.js", "MongoDB", "Express.js", "JWT", "MERN Stack", "REST API", "Docker"],
       links: { demo: "https://gumlet.tv/watch/6add6ecee655cfbd81267b1f/", code: "https://github.com/fpacheco-2024237/Banking-GT.git" }
     },
     {
       title: "Gastreat GT",
       year: "2026",
       description: "Este juego lo desarrollé en el marco de la formación académica de forma individual se presenta como un desafío.",
-      tags: ["JavaScript, HTML, CSS", "Accesibilidad"],
+      tags: ["React", "Node.js", "MongoDB", "Express.js", "JWT", "MERN Stack", "REST API", "Docker"],
       links: { demo: "https://gumlet.tv/watch/6add6eced8b4449c83d18fa7/", code: "https://github.com/fpacheco-2024237/Gastreat-GT.git" }
     },
     {
