@@ -37,7 +37,7 @@ window.PORTFOLIO_DATA = {
     
     coords: "GT-01 · Ciudad de Guatemala",
     ctaPrimary: { text: "Ver proyectos", href: "#proyectos" },
-    photo: "assets/profile1.jpeg",
+    photo: "assets/Fotof.jpeg",
     socials: [
       { type: "github",   url: "https://github.com/fpacheco-2024237" },
       { type: "linkedin", url: "https://www.linkedin.com/in/fred-garcia-132512275" },
